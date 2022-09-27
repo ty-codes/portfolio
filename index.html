@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bolatito Adeoye</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+ 
+  <center class="container">
+    <header id="header">
+      <nav id="navbar" style="top: 0;">
+        <div class="logo">
+            <img src="./img/headshot.jpeg" alt="Logo Image" id="header-img">
+            <p class="owner">Bolatito Adeoye</p>
+          </div>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#contact">Contact Me</a></li>
+          
+        </ul>
+      </nav>
+    </header>
+    
+
+    <section id="about" class="about">
+      <div class="intro">
+        <h1>Hi, I'm Bolatito <br>
+           and I love creating software solutions</h1>
+        <div><img class="hero" src="./img/role-model (1).png" alt="hero_icon"</div>
+      </div>
+    </section>
+
+
+    <section id="projects" class="projects container">
+        <h1 class="heading">My Projects</h1>
+        <div class="tiles-wrap">
+          <div class="project-tile">
+            <span><img src="./img/e_deal.png" alt="project1"></span>
+            <h2 class="title"><a href="https://e-deal.netlify.app"> e-deal</a></h2>
+            <p class="stack">ReactJS, Javascript, Commercejs</p>
+
+          </div>
+
+          <div class="project-tile">
+            <span><img src="./img/tubman.png" alt="project2"></span>
+            <h2 class="title"><a href="#"> Tribute page</a></h2>
+            <p class="stack">HTML5, CSS3, Javascript</p>
+
+          </div>
+
+          <div class="project-tile">
+            <span><img src="./img/adela.png" alt="project3"></span>
+            <h2 class="title"><a href="#">Adela product landing page</a></h2>
+            <p class="stack">HTML5, CSS3, Javascript</p>
+
+          </div>
+
+          <div class="project-tile">
+            <span><img src="./img/udapeople.png" alt="udapeople"></span>
+            <h2 class="title"><a href="#">Udapeople</a></h2>
+            <p class="stack">AWS, Typescript, CSS3, Javascript, circleci, NodeJS, </p>
+
+          </div>
+          
+          <div class="project-tile">
+            <span><img src="./img/orange_library.png" alt="orange_library"></span>
+            <h2 class="title"><a href="#">Orange Library</a></h2>
+            <p class="stack">HTML5, CSS3, Javascript</p>
+
+          </div>
+
+          <div class="project-tile">
+            <span><img src="./img/wattpad_clone.png" alt="wattpad_clone"></span>
+            <h2 class="title"><a href="#">Wattpad Clone</a></h2>
+            <p class="stack">HTML5, CSS3, Javascript</p>
+
+          </div>
+          
+          <div class="project-tile">
+            <span><img src="./img/luxury_dining.png" alt="luxury_dining"></span>
+            <h2 class="title"><a href="#">Luxury Dining</a></h2>
+            <p class="stack">HTML5, CSS3, Javascript</p>
+
+          </div>
+
+          <div class="project-tile">
+            <span><img src="./img/trillion_bucks.jpg" alt="trillion_bucks"></span>
+            <h2 class="title"><a href="#">The Trillionbucks Comapany</a></h2>
+            <p class="stack">ReactJS, React Bootstrap, React Router DOM, Bootstrap</p>
+
+          </div>
+        </div>
+        
+</section>
+    
+    
+    
+<!-- contact section -->
+    <section id="contact">
+        <div style="display: block;">
+          <div style="padding-top: 10px;"></div>
+          <a class="section" href="#"><h2 class="section-header text-uppercase">Contact Us</h2></a>
+        </div>      
+        <div class="contact-wrapper">
+        
+          <!-- Left contact page --> 
+          
+          <form id="contact-form" class="form-horizontal" role="form">
+              
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+              </div>
+            </div>
+      
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+              </div>
+            </div>
+      
+            <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+            
+            <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+              <div class="alt-send-button">
+                <span class="send-text"><img width="45px" height="18px" src="./img/paperplane.svg"></span>
+  
+                <span class="send-text">SEND</span>
+              </div>
+            
+            </button>
+            
+          </form>
+            
+          <!-- Left contact page --> 
+            
+          <div class="direct-contact-container">
+  
+            <ul class="contact-list">
+              <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Lagos, Nigeria</span></i></li>
+              
+              <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a id="profile-link" href="https://github.com/ty-codes">Github</a></span></i></li>
+              
+              <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#titoadeoye00@gmail.com" title="Send me an email">titoadeoye00@gmail.com</a></span></i></li>
+              
+            </ul>
+  
+            <hr>
+            <ul class="social-media-list">
+              <li><a  href="https://github.com/ty-codes" class="contact-icon">
+                <span><img src="./img/github.svg"></span></a>
+              </li>
+              <li><a href="#" target="_blank" class="contact-icon">
+                <span><img style="height: 28px; width: 28px;" src="./img/linkedin.svg"></span>
+  
+              </a></li>
+              
+              <li><a href="#" target="_blank" class="contact-icon">
+                <span><img src="./img/whatsapp.svg"></span>
+              </a></li>       
+            </ul>
+            <hr>
+  
+            <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+  
+          </div>
+          
+        </div>
+        
+      </section>
+
+    
+  
+  </center>
+
+  <script src="script.js"></script>
+</body>
+</html>
