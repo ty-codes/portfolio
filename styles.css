@@ -148,59 +148,6 @@ nav {
   letter-spacing: 3px;
 }
 
-/*info*/
-.info {
-  width: 75%;
-  height: 300px;
-}
-
-.image1 {
-  float: right;
-  /* border: 2px solid #41c27d; */
-  height: 300px;
-  width: 70%;
-  border-radius: 10px;
-  /* padding-bottom: 10px; */
-}
-
-.text1 {
-  float: left;
-  height: 250px;
-  width: 28%;
-  border-radius: 10px;
-  background-color: white;
-  font-size: 90%;
-  font-family: 'montserrat', Helvetica, Arial, sans-serif;
-  color: black;
-  word-spacing: 3px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.image2 {
-  float: left;
-  /* border: 2px solid #41c27d; */
-  height: 250px;
-  width: 47%;
-  border-radius: 10px;
-}
-
-.text2 {
-  float: right;
-  width: 50%;
-  height: 250px;
-  border-radius: 10px;
-  background-color: white;
-  font-size: 200%;
-  font-family: 'montserrat', Helvetica, Arial, sans-serif;
-  color: black;
-  word-spacing: 3px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-
-
 /* doc */
 .section {
   text-decoration: none;
@@ -293,7 +240,7 @@ input[type="email"] {
   border: none;
   border-bottom: 1px solid #AAA;
   font-family: 'montserrat', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 15px;
   transition: 0.2s ease;
 
@@ -301,16 +248,16 @@ input[type="email"] {
 
 input[type="text"]:focus,
 input[type="email"]:focus {
-  border-bottom: 2px solid #41c27d;
+  border-bottom: 2px solid #aaa;
   color: #222;
   transition: 0.2s ease;
+  outline: none;
 }
 
 input[type="submit"] {
   margin-top: 0px;
   width: 120px;
   height: 32px;
-  background: #9b5b3c;
 
   border: none;
   border-radius: 2px;
@@ -384,11 +331,14 @@ input[type="submit"]:active {
 textarea {
   max-width: 400px;
   width: 240px;
-  background-color: #fff;
+  background-color: #fafafa;
   color: #000;
   letter-spacing: 1px;
+  font-weight: 700;
 }
-
+textarea:focus {
+  outline: none;
+}
 .send-button {
   margin-top: 15px;
   height: 34px;
@@ -577,6 +527,10 @@ hr {
 
 #about img:hover {
   transform: scale(1.3);
+}
+#fname {
+  color: #fff;
+  font-weight: 600;
 }
 
 /* projects */
