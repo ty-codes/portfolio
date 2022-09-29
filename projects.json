@@ -1,0 +1,67 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "e-Deal",
+            "image": "./img/e_deal.png",
+            "stack": "ReactJS, Javascript, Commercejs",
+            "link": "https://e-deal.netlify.app"
+        },
+        {
+            "id": 2,
+            "name": "Harriet Tubman Tribute Page",
+            "image": "./img/tubman.png",
+            "stack": "HTML5, CSS3, Javascript",
+            "link": "https://ty-codes.github.io/harriet_tubman"
+        },
+        {
+            "id": 3,
+            "name": "Adela product landing page",
+            "image": "./img/adela.png",
+            "stack": "HTML5, CSS3, Javascript",
+            "link": "https://ty-codes.github.io/adela"
+        },
+        {
+            "id": 4,
+            "name": "Udapeople",
+            "image": "./img/udapeople.png",
+            "stack": "AWS, Typescript, CSS3, Javascript, circleci, NodeJS",
+            "link": "https://github.com/ty-codes/autodeploy-ci-cd-pipeline/tree/master"
+        },
+        {
+            "id": 5,
+            "name": "Orange Library",
+            "image": "./img/orange_library.png",
+            "stack": "HTML5, CSS3, Javascript",
+            "link": "https://ty-codes.github.io/orange-library"
+        },
+        {
+            "id": 6,
+            "name": "Wattpad Clone",
+            "image": "./img/wattpad_clone.png",
+            "stack": "HTML5, CSS3, Javascript",
+            "link": "https://ty-codes.github.io/wattpad_clone"
+        },
+        {
+            "id": 7,
+            "name": "Luxury Dining",
+            "image": "./img/luxury_dining.png",
+            "stack": "HTML5, CSS3, Javascript",
+            "link": "https://ty-codes.github.io/survey_form"
+        },
+        {
+            "id": 8,
+            "name": "The Trillionbucks Comapany",
+            "image": "./img/trillion_bucks.jpg",
+            "stack": "ReactJS, React Bootstrap, React Router DOM, Bootstrap",
+            "link": "https://trillionbucks.netlify.app"
+        },
+        {
+            "id": 9,
+            "name": "Advice Generator",
+            "image": "./img/advice_generator.jpg",
+            "stack": "HTML5, CSS3, Javascript, RestAPI",
+            "link": "https://ty-codes.github.io/advice-generator"
+        }
+    ]
+}
