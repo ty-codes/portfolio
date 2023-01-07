@@ -561,13 +561,12 @@ margin-right: 3em;
 }
 
 .project-tile:hover {
-  transform: scalex(1.1);
+  transform: scalex(1.04);
 }
 
 .project-tile img {
   height: 240px;
-  /* width: 300px; */
-  width: 80%;
+  width: 100%;
 }
 
 .project-tile img:hover {
